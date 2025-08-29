@@ -21,7 +21,7 @@ export const Timeline = ({ steps, currentStep, completedSteps }: TimelineProps) 
                   index < currentStep || completedSteps.includes(index)
                     ? "bg-primary border-primary text-primary-foreground"
                     : index === currentStep
-                    ? "bg-green-500 border-green-500 text-white"
+                    ? "bg-success border-success text-success-foreground"
                     : "bg-background border-border text-muted-foreground"
                 )}
               >

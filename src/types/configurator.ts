@@ -195,10 +195,10 @@ export const STEPS: Step[] = [
         required: true,
         dependsOn: ["setor04"],
         options: [
-          { id: "adega-midea", name: "Adega / cervejeira / frigobar - midea", price: 3300.00, image: "/lovable-uploads/ce92d192-77f8-4828-81ca-40cf3d7ed54c.png" },
+          { id: "adega-midea", name: "Adega / cervejeira / frigobar - midea", price: 3300.00, image: "/lovable-uploads/4f59f1cc-4412-428e-9583-342e14b05431.png" },
           { id: "dois-frigobares", name: "Dois frigobares - midea", price: 6600.00, image: "/lovable-uploads/3acc1961-9468-4878-ba97-67ab5032edc1.png" },
-          { id: "cervejeira-vertical", name: "Cervejeira vertical - venax", price: 4950.00, image: "/lovable-uploads/4f59f1cc-4412-428e-9583-342e14b05431.png" },
-          { id: "adega-bac51", name: "Adega BAC51 dual zone - benmax", price: 8893.63, image: "/lovable-uploads/ce92d192-77f8-4828-81ca-40cf3d7ed54c.png" },
+          { id: "cervejeira-vertical", name: "Cervejeira vertical - venax", price: 4950.00, image: "/lovable-uploads/ce92d192-77f8-4828-81ca-40cf3d7ed54c.png" },
+          { id: "adega-bac51", name: "Adega BAC51 dual zone - benmax", price: 8893.63, image: "/lovable-uploads/4f59f1cc-4412-428e-9583-342e14b05431.png" },
           { id: "vazio-s5", name: "Vazio (completa com marcenaria)", price: 0, image: "/lovable-uploads/128b8aca-78bc-44cd-8b97-a4eae0dbbe35.png" }
         ],
         extras: [

@@ -182,11 +182,11 @@ export const STEPS: Step[] = [
         required: true,
         dependsOn: ["setor03"],
         options: [
-          { id: "chopeira", name: "Chopeira modelo naja 2 vias kit completo", price: 23100.00 },
-          { id: "maquina-gelo", name: "Máquina de gelo 45kg - EOS", price: 5113.35 },
-          { id: "lava-loucas", name: "Lava louças de embutir 14 serviços - benmax", price: 9388.50 },
+          { id: "chopeira", name: "Chopeira modelo naja 2 vias kit completo", price: 23100.00, image: "/lovable-uploads/14efee8a-bbb1-402e-a330-d323265be33d.png" },
+          { id: "maquina-gelo", name: "Máquina de gelo 45kg - EOS", price: 5113.35, image: "/lovable-uploads/79e8334d-0c44-4391-9ff6-e60d38b8d2f3.png" },
+          { id: "lava-loucas", name: "Lava louças de embutir 14 serviços - benmax", price: 9388.50, image: "/lovable-uploads/da49c99a-d7ec-490a-8852-1da289b978b8.png" },
           { id: "adega-frigobar", name: "Adega / cervejeira / frigobar - midea", price: 3300.00 },
-          { id: "vazio-s4", name: "Vazio (completa com marcenaria)", price: 0 }
+          { id: "vazio-s4", name: "Vazio (completa com marcenaria)", price: 0, image: "/lovable-uploads/3ce90e9d-4bde-42a9-bb21-c532f6b5889d.png" }
         ]
       },
       {

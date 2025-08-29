@@ -195,10 +195,10 @@ export const STEPS: Step[] = [
         required: true,
         dependsOn: ["setor04"],
         options: [
-          { id: "adega-midea", name: "Adega / cervejeira / frigobar - midea", price: 3300.00 },
-          { id: "dois-frigobares", name: "Dois frigobares - midea", price: 6600.00 },
-          { id: "cervejeira-vertical", name: "Cervejeira vertical - venax", price: 4950.00 },
-          { id: "adega-bac51", name: "Adega BAC51 dual zone - benmax", price: 8893.63 },
+          { id: "adega-midea", name: "Adega / cervejeira / frigobar - midea", price: 3300.00, image: "/lovable-uploads/frigobar.png" },
+          { id: "dois-frigobares", name: "Dois frigobares - midea", price: 6600.00, image: "/lovable-uploads/frigobar-duplo.png" },
+          { id: "cervejeira-vertical", name: "Cervejeira vertical - venax", price: 4950.00, image: "/lovable-uploads/adega-vertical.png" },
+          { id: "adega-bac51", name: "Adega BAC51 dual zone - benmax", price: 8893.63, image: "/lovable-uploads/frigobar.png" },
           { id: "vazio-s5", name: "Vazio (completa com marcenaria)", price: 0 }
         ],
         extras: [

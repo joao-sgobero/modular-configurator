@@ -44,7 +44,7 @@ export const Summary = ({ selections, basePrice, totalPrice }: SummaryProps) => 
     
     doc.setFontSize(18);
     doc.setTextColor(100, 116, 139);
-    doc.text('Módulo Premium - Configuração Personalizada', 20, yPosition);
+    doc.text('Módulo Gourmet G (5 Metros) - Configuração Personalizada', 20, yPosition);
     yPosition += 20;
     
     // Line separator
@@ -139,8 +139,12 @@ export const Summary = ({ selections, basePrice, totalPrice }: SummaryProps) => 
     <div className="space-y-8">
       {/* Header with Company Info */}
       <div className="text-center space-y-4">
-        <h1 className="text-4xl font-bold text-primary">Modulariza</h1>
-        <h2 className="text-2xl font-semibold text-muted-foreground">Módulo Premium</h2>
+        <img 
+          src="/lovable-uploads/7e120fe2-bba4-4694-9f08-cda678757c3b.png" 
+          alt="Modulariza" 
+          className="h-16 mx-auto"
+        />
+        <h2 className="text-2xl font-semibold text-muted-foreground">Módulo Gourmet G (5 Metros)</h2>
         <p className="text-lg text-muted-foreground">Configuração personalizada</p>
       </div>
 
